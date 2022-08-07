@@ -1,0 +1,27 @@
+
+
+.menu{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  .skills, .proyectos{
+      width: 10rem;
+      padding: 5px 10px;
+      border: 2px solid #FFF;
+      border-radius: 1rem;
+      text-transform: uppercase;
+      color: #FFF;
+      font-weight: bold;
+      transition: all .3s ease-in-out;
+
+        &:hover{
+            border-color: #741CA3 ;
+            color: #741CA3;
+            transition: all .3s ease-in-out;
+        }
+      
+    
+  }
+}

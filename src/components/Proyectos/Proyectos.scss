@@ -1,0 +1,25 @@
+@import '../../scss/index.scss';
+
+
+h1{
+    padding-top: 6rem;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.container-proyects{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+
+    margin-top: 8rem;
+
+    .card-proyects{
+        margin: 20px;
+    }
+}
+
+.github{
+ color: black;    
+}
